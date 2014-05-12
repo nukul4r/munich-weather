@@ -1,0 +1,13 @@
+\.classpath$
+\.project$
+\.settings/
+.+\.iml$
+\.idea/
+\.gradle/
+^target.*
+ant.properties
+local.properties
+syntax: glob
+build.xml
+MucWetter/build/*
+*.apk

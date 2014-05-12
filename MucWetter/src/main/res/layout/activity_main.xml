@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <WebView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView"
+        android:layout_weight="1" />
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnT850Nds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.wetterzentrale.de/pics/MT8_Muenchen_ens.png"
+                android:text="t850 + Nds" />
+
+
+            <Button
+                android:id="@+id/btnMm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://wetterstationen.meteomedia.de/messnetz/vorhersagegrafik/098620.png"
+                android:text="MeteoMedia" />
+
+            <Button
+                android:id="@+id/btnMucFh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://wettastrono.de/Wetter/html/aktuell.gif"
+                android:text="München Freiham" />
+
+            <Button
+                android:id="@+id/btnNsr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.niederschlagsradar.de/image.ashx?type=regioloop&amp;regio=mun"
+                android:text="Niederschlagsradar" />
+
+            <Button
+                android:id="@+id/btnNsrB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.wetterzentrale.de/pics/radaktuell_southeast.jpg"
+                android:text="Niederschlagsradar Bayern" />
+
+            <Button
+                android:id="@+id/btnWrf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.wetterzentrale.de/pics/MS_116481_wrf.png"
+                android:text="WRF" />
+
+            <Button
+                android:id="@+id/btnSun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.wettastrono.de/astro_bilder/sonne_flecken.jpg"
+                android:text="Sun Spots" />
+
+            <Button
+                android:id="@+id/btnIce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="http://www.iup.uni-bremen.de:8084/amsr2/extent_n_running_mean_amsr2_previous.png"
+                android:text="Arctic Ice" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+

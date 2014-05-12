@@ -1,0 +1,10 @@
+[paths]
+default = https://nukul4r@bitbucket.org/nukul4r/munich-weather
+
+
+[tortoisehg]
+vdiff = kdiff3
+autoresolve = True
+
+[ui]
+merge = kdiff3
