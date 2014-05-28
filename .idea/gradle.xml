@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="D:\workspace\munich-weather" />
-            <option value="D:\workspace\munich-weather\MucWetter" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MucWetter" />
           </set>
         </option>
       </GradleProjectSettings>
