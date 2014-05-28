@@ -13,12 +13,12 @@ repositories {
 }
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 11
     buildToolsVersion "19.0.3"
 
     defaultConfig {
         minSdkVersion 11
-        targetSdkVersion 16
+        targetSdkVersion 14
     }
 }
 
