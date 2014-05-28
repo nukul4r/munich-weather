@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                ((WebView) findViewById(R.id.webView)).loadData(htmlString, "text/html", "UTF-8");
+                ((WebView) findViewById(R.id.webView)).loadDataWithBaseURL(null, htmlString, "text/html", "UTF-8", "about:blank");
             }
         });
     }
